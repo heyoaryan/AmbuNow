@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AmbuNow - AI-powered real-time ambulance allocation platform. Reduce emergency response time by 60% through intelligent resource allocation and severity assessment." />
+    <meta name="keywords" content="ambulance, emergency, AI, healthcare, emergency response, medical emergency, ambulance allocation" />
+    <meta name="author" content="AmbuNow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ambunow.com/" />
+    <meta property="og:title" content="AmbuNow - AI-Powered Emergency Response" />
+    <meta property="og:description" content="Revolutionary AI-powered platform that reduces ambulance response time by 60% through intelligent allocation and real-time severity assessment." />
+    <meta property="og:image" content="/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://ambunow.com/" />
+    <meta property="twitter:title" content="AmbuNow - AI-Powered Emergency Response" />
+    <meta property="twitter:description" content="Revolutionary AI-powered platform that reduces ambulance response time by 60% through intelligent allocation and real-time severity assessment." />
+    <meta property="twitter:image" content="/twitter-image.jpg" />
+    
+    <title>AmbuNow - AI-Powered Emergency Response Platform</title>
+    
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" as="style">
+    
+    <!-- Critical CSS will be inlined by build process -->
+    <style>
+      /* Critical above-the-fold styles */
+      body {
+        font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        margin: 0;
+        padding: 0;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      /* Loading screen styles */
+      .loading-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
